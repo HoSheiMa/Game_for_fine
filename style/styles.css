@@ -1,0 +1,40 @@
+body, body * {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 80px !important;
+  display: inline-block;
+  height: 80px !important;
+  background-color: transparent !important;
+  background-size: contain;
+}
+
+.hide-box {
+  opacity: 0;
+}
+
+.rotate {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.bg-0 {
+  background-image: url("../imgs/0.png");
+}
+
+.bg-1 {
+  background-image: url("../imgs/1.png");
+}
+
+.bg-2 {
+  background-image: url("../imgs/2.png");
+}
+
+.bg-3 {
+  background-image: url("../imgs/3.png");
+}
+/*# sourceMappingURL=styles.css.map */
